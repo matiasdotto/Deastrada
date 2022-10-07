@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    background: #fafafa;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #fafafa;
+    border-bottom: solid #dfdfdf;
+    padding: 5px 0;
+}
+
+.nav__contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.logo{
+    height: 200%;
+    margin-top: 5px;
+}
+
+.nav__buscar{
+    width: 200px;
+    height: 25px;
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+
+.nav__items img{
+    margin-left: 25px;
+    width: 35px;
+    height: 35px;
+}
+
+.fotos{
+    max-width: 300px;
+    height: 300px;
+    /* width: 300px; */
+}
+
+.post-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 0;
+}
+
+.post-container .tag-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    margin: auto;
+    box-shadow: 0 0 4px black;
+}
+
+.post-container .tag-container .tag-container-photo-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -7rem;
+    margin-top: -3rem;
+}
+
+.post-container .tag-container .tag-container-photo-name img{
+    width: 40px;
+    border-radius: 50%;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.post-container .tag-container img{
+    height: 300px;
+    margin: 4rem 0rem;
+}
+
+.under-photo-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.under-photo-section .under-photo-with-heart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -6rem 0rem;
+    align-items: center;
+}
+
+.under-photo-section .under-photo-with-heart img {
+    width: 30px;
+    height: auto;
+}
+
+.under-photo-section .under-photo-with-heart h4 {
+    color: rgb(155, 155, 155);
+}
+
+.under-photo-section .under-photo-with-heart img:hover {
+    filter: brightness(0) saturate(100%) invert(16%) sepia(96%) saturate(7303%) hue-rotate(360deg) brightness(109%) contrast(113%);
+}
+
+.under-photo-description {
+    font-size: .9rem;
+}
+
+.under-photo-description {
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;    
+}
+
+.tag-container .post-image img {
+    width: 100%;
+}
+
+@media all and (max-width: 1000px){
+    .post-container img{
+        height: 300px;
+        margin: 1rem;
+    }
+} 
+
+@media (max-width: 780px) {
+    
+}
+
+@media all and (max-width: 700px){
+    .post-container{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+       /*  grid-template-rows: auto; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 70%;
+    
+} 
+
+.columna1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post{
+    width: 100%;
+    
+} */
